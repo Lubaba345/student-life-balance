@@ -1,0 +1,94 @@
+/* this stylesheet keeps the whole web site simple and consistent */
+
+body {
+    background-color: #f4efff;
+    color: #222222;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.nav {
+    background-color: #d9ccff;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #b8a7e6;
+}
+
+.nav a {
+    color: #3d2c5c;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #4a2f75;
+}
+
+img {
+    border: 2px solid #cbbbe8;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+table, th, td {
+    border: 1px solid #7d63b8;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ece3ff;
+}
+
+.formbox {
+    background-color: #f8f4ff;
+    border: 1px solid #cdbce9;
+    padding: 15px;
+}
+
+.footer {
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* gallery image layout */
+.gallery {
+    text-align: center;
+}
+
+.gallery a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    vertical-align: top;
+}

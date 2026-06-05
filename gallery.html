@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- gallery page demonstrating an image map -->
+<meta charset="utf-8">
+<title>student life balance - gallery</title>
+
+<!-- link to css file -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<!-- navigation menu -->
+<div class="nav">
+<a href="index.html">home</a>
+<a href="about.html">about</a>
+<a href="routine.html">routine</a>
+<a href="studyspots.html">study spots</a>
+<a href="hobbies.html">hobbies</a>
+<a href="tools.html">tools</a>
+<a href="gallery.html">gallery</a>
+<a href="tips.html">tips</a>
+<a href="feedback.html">feedback</a>
+<a href="citations.html">citations</a>
+</div>
+
+<h1>interactive gallery</h1>
+
+<hr>
+
+<p>
+This page demonstrates an <strong>image map</strong>. An image map allows one image to contain
+multiple clickable areas that link to different pages in the web site. This technique
+makes navigation more interactive and visually engaging for users.
+</p>
+
+<p>
+The image below contains three sections that represent different parts of student life:
+a daily routine, good study spots, and useful study tools. Click on any section of the
+image to open the related page and learn more about that topic.
+</p>
+
+<br>
+
+<!-- main image with clickable map -->
+<img src="map.png"
+alt="student life gallery showing routine study spots and tools"
+width="750"
+height="350"
+usemap="#gallerymap">
+
+<!-- image map -->
+<map name="gallerymap">
+
+<!-- left section -->
+<area shape="rect"
+coords="0,0,250,350"
+href="routine.html"
+alt="daily routine">
+
+<!-- middle section -->
+<area shape="rect"
+coords="250,0,500,350"
+href="studyspots.html"
+alt="study spots">
+
+<!-- right section -->
+<area shape="rect"
+coords="500,0,750,350"
+href="tools.html"
+alt="study tools">
+
+</map>
+
+<br><br>
+
+<hr>
+
+<p>
+<a href="index.html">back to home page</a>
+</p>
+
+</div>
+
+</body>
+</html>
